@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="table.css">
+	<title>
+	</title>
+</head>
+<body>
+<div class="calc-block">
+	<form name="calc" id ="calc">
+		<table   cellpadding="5px">
+			<tr>
+				<td colspan="3"><input type="text" size="2" name="input" placeholder="id" maxlength="2"/></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" name="one" value="1" onclick="calc.input.value += '1'"/></td>
+				<td><input type="button" name="two" value="2" onclick="calc.input.value += '2'"></td>
+				<td><input type="button" name="three" value="3" onclick="calc.input.value += '3'"></td>
+			</tr>
+			<tr>
+				<td><input type="button" name="four" value="4" onclick="calc.input.value += '4'"></td>
+				<td><input type="button" name="five" value="5" onclick="calc.input.value += '5'"></td>
+				<td><input type="button" name="six" value="6" onclick="calc.input.value += '6'"></td>
+			</tr>
+			<tr>
+				<td><input type="button" name="seven" value="7" onclick="calc.input.value += '7'"></td>
+				<td><input type="button" name="eight" value="8" onclick="calc.input.value += '8'"></td>
+				<td><input type="button" name="nine" value="9" onclick="calc.input.value += '9'"></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="redButton" name="one" value="C" onclick="calc.input.value = ''"/></td>
+				<td><input type="button" name="zero" value="0" onclick="calc.input.value += '0'"></td>
+				<td><input type="button" id="greenButton"name="send" value="Send"></td>
+			</tr>	
+		</table>
+	</form>
+</div>
+</body>
+</html>
