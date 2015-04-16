@@ -37,4 +37,6 @@ input{
 
 input[type ="button"]:hover {
 	color:white;
+	border-color:white;
+	font-size:35px;
 }
