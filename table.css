@@ -1,42 +1,51 @@
 .calc-block {
-	margin-left:130px;
-	margin-top:50px;
-	float:left;
-}
-.calc-block input[type ="button"] {
-	width:100px;
-	height:100px;
-	border-radius:20px;
-	font-size: 30px;
-	font-weight: bold;
-	
-	color:#666666;
-	background-color: #CCCCCC;
-	border-color:#666666;
-}
-.calc-block table{
-	border-collapse: collapse;	
-}
-input{
-	width:315px;
-	height:100px;
-	font-size: 40px;
-	font-family:Tahoma;
-	text-align: center;
-	color:#666666;
-	border-radius: 10px;
-	border-color:#666666;
-	
-}
-#redButton {
-	background-color: #FF6633;
-}
-#greenButton {
-	background-color: #00FF66;
+    margin-left: 130px;
+    margin-top: 50px;
+    float: left;
 }
 
+.calc-block input[type="button"] {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #666666;
+    background-color: #CCCCCC;
+    border-color: #666666;
+}
+
+.calc-block table {
+    border-collapse: collapse;
+}
+
+input {
+    width: 315px;
+    height: 100px;
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: center;
+    color: #666666;
+    border-radius: 10px;
+    border-color: #666666;
+}
+
+#redButton {
+    background-color: #FF6633;
+}
+
+#greenButton {
+    background-color: #00FF66;
+}
+
+<<<<<<< HEAD
+input[type="button"]:hover {
+    color: white;
+}
+=======
 input[type ="button"]:hover {
 	color:white;
 	border-color:white;
 	font-size:35px;
 }
+>>>>>>> FETCH_HEAD
